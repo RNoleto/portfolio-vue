@@ -4,6 +4,12 @@
 
 @import "tailwindcss";
 
+@theme {
+    --color-mint-500: oklch(0.72 0.11 178);
+    --color-primary: #00bcff;
+    --color-secondary: #A6E3FF;
+}
+
 /* Opções base para estrutura da ladingPage */
 
 * {

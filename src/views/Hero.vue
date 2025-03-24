@@ -4,7 +4,7 @@
 
 <template>
     <section class="hero overflow-hidde">
-        <h1 class="text-secondary">Do código à inovação</h1>
+        <h1 class="text-primary">Do código à inovação</h1>
         <p>Transformando ideias em experiências digitais excepcionais.</p>
     </section>
 </template>
