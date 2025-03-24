@@ -7,7 +7,11 @@
 @import "tailwindcss";
 
 @theme {
-    --color-back: #667788;
+    --color-dark: #667788;
+    --color-dark-secondary: #556677;
+    
+    --color-light: #BDD2ED;
+
     --color-primary: #00bcff;
     --color-secondary: #A6E3FF;
 }
@@ -23,21 +27,11 @@ body{
     color: #333;
     /* Teste de Fonts */
     --type-first: Helvetica, Arial, sans-serif;
-    --type-second: 'Spectral', georgia;
+    --type-second: 'Anton', georgia;
+    --type-third: 'Spectral', georgia;
+    
+    /* Fonte estilo Codigo */
     --type-third: 'IBM Plex Mono', georgia;
-    --type-fourth: 'Anton', georgia;
-
-    --type-test1: 'Poppins', sans-serif;
-    --type-test2: 'Inter', sans-serif;
-
-    --type-test3: 'Playfair Display', serif;
-    --type-test4: 'Source Sans Pro', sans-serif;
-
-    --type-test5: 'Montserrat', sans-serif;
-    --type-test6: 'Roboto', sans-serif;
-
-    /* Fonte estilo Código */
-    --type-code: 'Fira Code', monospace;
 
     font-family: var(--type-first);
 }
@@ -55,41 +49,25 @@ section{
 
 .AppBody{
     flex: 1;
-    background: var(--color-back);
+    background: var(--color-dark);
 }
 
 .title{
-    font-family: var(--type-code);
-    font-size: 2rem;
-    line-height: 1;
-}
-
-/* Modelo de Titulo */
-.titlePrimary{
     font-family: var(--type-second);
     line-height: 1;
-    font-size: 3rem;
-    margin: 1rem 0;
-    position: relative;
-    z-index: 1;
-}
-
-.titlePrimary::after {
-    content: '';
+    font-size: 2.25rem;
     display: block;
-    width: 1.5rem;
-    height: 1.5rem;
-    background: var(--primary-color);
-    position: absolute;
-    top: 0px;
-    left: -5px;
-    border-radius: 0.2rem;
-    z-index: -1;
 }
-/* Fim do modelo de Titulo */
 
 .subtitle{
     font-family: var(--type-third);
+}
+
+.divisor{
+    display: block;
+    height: 1px;
+    width: 100%;
+    background: var(--color-dark-secondary);
     margin: 1rem 0;
 }
 

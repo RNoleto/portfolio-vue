@@ -5,7 +5,7 @@ import Navbar from './Navbar.vue';
 
 <template>
     <header class="flex items-center justify-between p-2 bg-zinc-50 shadow-md">
-        <p class="text-lg">RNoleto.</p>
+        <img src="../../public/assets/the-developer-logo.svg" alt="">
         <Navbar />
     </header>
 </template>

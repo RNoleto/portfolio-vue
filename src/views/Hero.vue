@@ -1,22 +1,14 @@
 <script setup>
-import TerminalCard from '../components/ui/TerminalCard.vue';
+
 </script>
 
 <template>
-    <section class="overflow-hidde content-center">
-        <h1 class="title">Construindo o futuro com código</h1>
-
-        <TerminalCard
-            :content="[
-                'npm install @vue/cli -g',
-                'vue create my-project',
-                'cd my-project',
-                'npm run serve',
-            ]"
-            buttonText="Criar projeto"
-            @onButtonClick="() => window.open('https://cli.vuejs.org/')"
-        />
+    <section class="overflow-hidde content-center animeLeft">
+        <div class="title">
+            <h1 class="text-lg/1 ml-[2px]">The</h1>
+            <h1 class="text-8xl">Developer</h1>
+        </div>
+        <p class="subtitle text-sm mt-2">Transformando ideias em experiências digitais envolventes e funcionais</p>
     </section>
+    <div class="divisor"></div>
 </template>
-
-<style scoped></style>

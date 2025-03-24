@@ -3,7 +3,7 @@
 
 <template>
     <section>
-        <h1>Sobre Mim</h1>
+        <h1 class="title">Sobre Mim</h1>
     </section>
 </template>
 
