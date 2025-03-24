@@ -1,11 +1,13 @@
 /* Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Spectral:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Roboto:wght@100;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&display=swap');
 
 @import "tailwindcss";
 
 @theme {
-    --color-mint-500: oklch(0.72 0.11 178);
+    --color-back: #667788;
     --color-primary: #00bcff;
     --color-secondary: #A6E3FF;
 }
@@ -19,9 +21,24 @@
 body{
     margin: 0px;
     color: #333;
+    /* Teste de Fonts */
     --type-first: Helvetica, Arial, sans-serif;
     --type-second: 'Spectral', georgia;
     --type-third: 'IBM Plex Mono', georgia;
+    --type-fourth: 'Anton', georgia;
+
+    --type-test1: 'Poppins', sans-serif;
+    --type-test2: 'Inter', sans-serif;
+
+    --type-test3: 'Playfair Display', serif;
+    --type-test4: 'Source Sans Pro', sans-serif;
+
+    --type-test5: 'Montserrat', sans-serif;
+    --type-test6: 'Roboto', sans-serif;
+
+    /* Fonte estilo Código */
+    --type-code: 'Fira Code', monospace;
+
     font-family: var(--type-first);
 }
 
@@ -38,11 +55,13 @@ section{
 
 .AppBody{
     flex: 1;
-    background: #eee;
+    background: var(--color-back);
 }
 
 .title{
-    font-family: var(--type-primary);
+    font-family: var(--type-code);
+    font-size: 2rem;
+    line-height: 1;
 }
 
 /* Modelo de Titulo */

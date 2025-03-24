@@ -4,7 +4,8 @@
 
 <template>
     <footer class="py-6 px-4 text-center">
-        <p class="text-sm">Alguns direitos reservados.</p>
+        <p>Todos os direitos reservados.</p>
+        <p>Copyright © 2025 Ramon Noleto.</p>
     </footer>
 </template>
 

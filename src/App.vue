@@ -9,7 +9,7 @@ import Footer from './components/Footer.vue';
   <Header />
   <main class="AppBody">
     <Hero/>
-    <!-- <AboutMe/> -->
+    <AboutMe/>
   </main>
   <Footer />
 </template>
