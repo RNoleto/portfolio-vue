@@ -16,11 +16,6 @@
     box-sizing: border-box;
 }
 
-:root{
-    --primary-color: #00bcff;
-    --second-color: #A6E3FF;
-}
-
 body{
     margin: 0px;
     color: #333;
@@ -32,6 +27,7 @@ body{
 
 section{
     padding: 1.5rem 1rem;
+    height: calc(100vh - 55px);
 }
 
 #app{
@@ -43,6 +39,10 @@ section{
 .AppBody{
     flex: 1;
     background: #eee;
+}
+
+.title{
+    font-family: var(--type-primary);
 }
 
 /* Modelo de Titulo */

@@ -125,9 +125,9 @@ button:hover,
 button.active {
   outline: none;
   background: white;
-  box-shadow: 0 0 0 3px var(--second-color);
-  border-color: var(--primary-color);
-  color: var(--primary-color);
+  box-shadow: 0 0 0 3px var(--color-secondary);
+  border-color: var(--color-primary);
+  color: var(--color-primary);
 }
 
 /* Transformação para o ícone ativo (</>) */
@@ -161,6 +161,6 @@ span.active::after {
 li:hover,
 li:focus {
   cursor: pointer;
-  color: var(--primary-color);
+  color: var(--color-primary);
 }
 </style>
